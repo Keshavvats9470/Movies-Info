@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #06202A */
+
+@layer base {
+    body {
+        @apply bg-[black] text-gray-300;
+        @apply overflow-x-hidden;
+    }
+}
