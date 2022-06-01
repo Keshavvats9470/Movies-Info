@@ -1,3 +1,7 @@
+## Screenshots in Readme
+![](screenshots/SH11.jpg)
+![](screenshots/SH22.jpg)
+
 ## Getting Started
 
 First, run the development server:
