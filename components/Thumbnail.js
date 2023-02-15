@@ -15,21 +15,22 @@ const Thumbnail = forwardRef(({ result }, ref) => {
             `${BASE_URL}${result.backdrop_path || result.poster_path}` ||
             `${BASE_URL}${result.poster_path}` 
         }
-        height={1000}
-        width={1920}
+        height={1200}
+        width={2000}
+        
         />  
         <div className="p-2">
-          <p className="truncate max-w-md">{result.overview}</p>    
-          <h2 className="mt-1 text-2xl text-white transition-all duration-200 ease-in-out group-hover:font-bold">
+          <h2 className="mt-1 text-2xl text-[#FDA512] transition-all duration-200 ease-in-out group-hover:font-bold">
               {result.title || result.original_name}
           </h2>
-         <p className="flex items-center opacity-0 group-hover:opacity-100">
-             {result.media_type && `${result.media_type} `} -{" "}
+          <p className="max-w-md text-sm text-gray-300 opacity-90">{result.overview}</p>    
+         <p className="flex items-center opacity-0 group-hover:opacity-100 text-[#FDA512]">
+             {result.media_type && `${result.media_type} `}{" "}
              {result.release_date || result.first_air_date} {" "}
-             <ThumbUpIcon className="h-4 mx-2" /> {result.vote_count}
+             <ThumbUpIcon className="h-4 mx-2"/> {result.vote_count}
          </p>
         </div> 
-    l</div>
+    </div>
   );
 })
 
