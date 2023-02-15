@@ -1,6 +1,7 @@
 ## Screenshots in Readme
-![](screenshots/SH11.jpg)
-![](screenshots/SH22.jpg)
+![](screenshots/SH-11.jpg)
+![](screenshots/SH-22.jpg)
+![](screenshots/SH-33.jpg)
 
 ## Getting Started
 
